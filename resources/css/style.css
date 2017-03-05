@@ -52,7 +52,8 @@ section {
 
 h1,
 h2,
-h3 {
+h3,
+h4{
     font-weight: 300;
     text-transform: uppercase;
 }
@@ -72,6 +73,15 @@ h2 {
     text-align: center;
     margin-bottom: 30px;
     letter-spacing: 1px;
+}
+
+h4 {
+    color: #fff;
+    margin: 10px 0 30px 95px;
+}
+
+.section-about-me h2 {
+    text-transform: none;
 }
 
 /* the line under the h2 heading */
