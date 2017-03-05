@@ -74,6 +74,11 @@ h2 {
     letter-spacing: 1px;
 }
 
+h3 {
+    color: #fff;
+    margin: 10px 0 30px 75px;
+}
+
 /* the line under the h2 heading */
 h2:after {
     
