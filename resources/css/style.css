@@ -112,7 +112,7 @@ h2:after {
 /*------------------------------*/
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/bg-img-10.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/bg-img-10.jpeg);
     background-size: cover;
     background-position: center;
     height: 100vh; /* 100% of the viewport */
@@ -127,7 +127,7 @@ header {
 }
 
 .logo {
-    height: 500px;
+    height: 100px;
     width: auto;
     float: left;
     margin-top: 20px;
