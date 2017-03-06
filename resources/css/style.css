@@ -56,6 +56,7 @@ h3,
 h4{
     font-weight: 300;
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 h1 {
@@ -63,7 +64,6 @@ h1 {
     margin-bottom: 20px;
     color: #fff;
     font-size: 300%; /* is 200% of the font-size from * which will mean the font size is 40px */
-    letter-spacing: 1px;
     word-spacing: 4px;
 }
 
@@ -72,7 +72,11 @@ h2 {
     word-spacing: 2px;
     text-align: center;
     margin-bottom: 30px;
-    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
 }
 
 h4 {
@@ -86,7 +90,13 @@ h4 {
 
 /* the line under the h2 heading */
 h2:after {
-    
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
 /* ----- PARAGRAPHS ----- */
