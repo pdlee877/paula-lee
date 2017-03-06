@@ -136,6 +136,7 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh; /* 100% of the viewport */
+    background-attachment: fixed;
 }
 
 .main-img-text-box {
@@ -179,6 +180,10 @@ header {
 .main-nav li a:active {
     border-bottom: 2px solid #f1c40f;
 }
+
+/*------------------------------*/
+/* ABOUT ME */
+/*------------------------------*/
 
 /*------------------------------*/
 /* WORKS */
