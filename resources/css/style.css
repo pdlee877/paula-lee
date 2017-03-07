@@ -141,10 +141,10 @@ header {
 
 .main-img-text-box {
     position: absolute;
-    width: 500px;
+    width: 385px;
     top: 50%;
     left: 50%;
-    transform: translate(-25%, -25%); /* translates the element half of it's width and height up and to the left */ 
+    transform: translate(-50%, -50%); /* translates the element half of it's width and height up and to the left */ 
 }
 
 .logo {
