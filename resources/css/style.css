@@ -204,7 +204,9 @@ header {
 /* WORKS */
 /*------------------------------*/
 
-.section-works { padding: 0; }
+.section-works {
+    padding: 0; 
+}
 
 .works-showcase {
     list-style: none;
@@ -218,6 +220,7 @@ header {
 }
 
 .works-photo {
+    position: relative;
     width: 100%;
     margin: 0;
     overflow: hidden;
@@ -225,16 +228,17 @@ header {
 }
 
 .works-photo img {
-    opacity: 0.7;
+    opacity: 1;
     width: 100%;
     height: auto;
-    transform: scale(1.15);
+    transform: scale(1);
     transition: transform 0.5s, opacity: 0.5s;
 }
 
-.works-photo img:hover {
-    opacity: 1;
-    transform: scale(1);
+.works-photo img:hover{
+    opacity: 0.7;
+    transform: scale(1.15);
+    visibility: visible;
 }
 
 
