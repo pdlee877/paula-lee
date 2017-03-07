@@ -136,14 +136,15 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh; /* 100% of the viewport */
+    background-attachment: fixed;
 }
 
 .main-img-text-box {
     position: absolute;
-    width: 1140px;
+    width: 500px;
     top: 50%;
     left: 50%;
-    transform: translate(-15%, -15%); /* translates the element half of it's width and height up and to the left */ 
+    transform: translate(-25%, -25%); /* translates the element half of it's width and height up and to the left */ 
 }
 
 .logo {
@@ -179,6 +180,10 @@ header {
 .main-nav li a:active {
     border-bottom: 2px solid #f1c40f;
 }
+
+/*------------------------------*/
+/* ABOUT ME */
+/*------------------------------*/
 
 /*------------------------------*/
 /* WORKS */
