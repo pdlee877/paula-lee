@@ -65,8 +65,8 @@ h4{
 }
 
 h1 {
-    margin: 0;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
     color: #fff;
     font-size: 300%; /* is 200% of the font-size from * which will mean the font size is 40px */
     word-spacing: 4px;
@@ -159,7 +159,7 @@ header {
     border-radius: 55%;
     opacity: 0.9;
     display: in-block;
-    border: 3px solid #f7f7f7;
+    border: 3px solid #d8d8d8;
 }
 
 .logo {
