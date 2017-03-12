@@ -48,6 +48,10 @@ section {
     padding: 80px 0;
 }
 
+.box {
+    padding: 1%;
+}
+
 /* ----- HEADINGS ----- */
 
 .main-img-text-box h1,
@@ -204,26 +208,15 @@ header {
 /* WORKS */
 /*------------------------------*/
 
-.section-works {
-    padding: 0; 
-}
-
+/*
 .works-showcase {
     list-style: none;
     width: 100%;
 }
-
-.works-showcase li {
-    display: block;
-    float: left;
-    width: 25%;
-    position: relative;
-}
+*/
 
 .works-photo {
     position: relative;
-    width: 100%;
-    margin: 0;
     overflow: hidden;
     background-color: #000;
 }
@@ -238,7 +231,6 @@ header {
 
 .works-text {
     position: absolute;
-    display: inline-block;
     font-size: 22px;
     top: 50%;
     left: 50%;
@@ -255,7 +247,7 @@ header {
     padding-bottom: 150px;
 }
 
-.works-photo img {
+.box img {
     width: 100%;
     height: auto;
     transform: scale(1.15);
