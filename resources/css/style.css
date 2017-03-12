@@ -48,6 +48,10 @@ section {
     padding: 80px 0;
 }
 
+.box {
+    padding: 1%;
+}
+
 /* ----- HEADINGS ----- */
 
 .main-img-text-box h1,
@@ -204,26 +208,15 @@ header {
 /* WORKS */
 /*------------------------------*/
 
-.section-works {
-    padding: 0; 
-}
-
+/*
 .works-showcase {
     list-style: none;
     width: 100%;
 }
-
-.works-showcase li {
-    display: block;
-    float: left;
-    width: 25%;
-    position: relative;
-}
+*/
 
 .works-photo {
     position: relative;
-    width: 100%;
-    margin: 0;
     overflow: hidden;
     background-color: #000;
 }
@@ -238,20 +231,23 @@ header {
 
 .works-text {
     position: absolute;
+    font-size: 22px;
     top: 50%;
     left: 50%;
     margin: 0;
     margin-right -50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     color: #fff;
     visibility: hidden;
     opacity: 0;
     text-align: center;
-    padding: 100px 152px;
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
-.works-photo img {
+.box img {
     width: 100%;
     height: auto;
     transform: scale(1.15);
