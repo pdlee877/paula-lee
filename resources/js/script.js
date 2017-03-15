@@ -29,6 +29,13 @@ $(document).ready(function() {
            
        });
     });
-  
+    
+    /* Scroll back to top */
+    
+    
+    /* Hover Text */
+    $('.tooltip').tooltipster({
+        theme: 'tooltipster-light'
+    });
     
 });
