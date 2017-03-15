@@ -44,20 +44,14 @@ html {
     margin: 0 auto;
 }
 
-section {
-    padding: 80px 0;
-}
+section { padding: 80px 0; }
 
-.box {
-    padding: 1%;
-}
+.box { padding: 1%; }
 
 /* ----- HEADINGS ----- */
 
 .main-img-text-box h1,
-h4 {
-    float: left;
-}
+h4 { float: left; }
 
 h1,
 h2,
@@ -109,9 +103,7 @@ h2:after {
     margin-top: 30px;
 }
 
-.contact h2 {
-    color: #fafafa;
-}
+.contact h2 { color: #fafafa; }
 
 /* ----- PARAGRAPHS ----- */
 
@@ -167,6 +159,15 @@ header {
     margin-top: 20px;
 }
 
+.dark-logo { 
+    display: none;
+    height: 50px;
+    width: auto;
+    float: left;
+    margin-top: 5px;
+}
+
+/* Main nav */
 .main-nav {
     float: right;
     list-style: none;
@@ -194,21 +195,38 @@ header {
     border-bottom: 2px solid #f1c40f;
 }
 
+/* Sticky nav */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 9999;
+}
+
+.sticky .main-nav { margin-top: 16px; }
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 8px 0;
+    color: #555;
+}
+
+.sticky .logo { display: none; }
+.sticky .dark-logo { display: block; }
+
 /*------------------------------*/
 /* ABOUT ME */
 /*------------------------------*/
 
-.section-about-me {
-    background-color: #e7f4ff;
-}
+.section-about-me { background-color: #f4f4f4; }
 
 /*------------------------------*/
 /* WORKS */
 /*------------------------------*/
-
-.section-works {
-/*    background-color: #f4f4f4;*/
-}
 
 .works-showcase {
     list-style: none;
@@ -240,9 +258,7 @@ header {
     background-color: #f0f0f0;
 }
 
-.w-padding {
-    padding: 30px;
-}
+.w-padding { padding: 30px; }
 
 .works-photo img {
     opacity: 0.7;
@@ -290,6 +306,7 @@ header {
     visibility: hidden;
     opacity: 0;
 }
+
 
 
 
