@@ -44,20 +44,14 @@ html {
     margin: 0 auto;
 }
 
-section {
-    padding: 80px 0;
-}
+section { padding: 80px 0; }
 
-.box {
-    padding: 1%;
-}
+.box { padding: 1%; }
 
 /* ----- HEADINGS ----- */
 
 .main-img-text-box h1,
-h4 {
-    float: left;
-}
+h4 { float: left; }
 
 h1,
 h2,
@@ -109,9 +103,7 @@ h2:after {
     margin-top: 30px;
 }
 
-.contact h2 {
-    color: #fafafa;
-}
+.contact h2 { color: #fafafa; }
 
 /* ----- PARAGRAPHS ----- */
 
@@ -198,17 +190,11 @@ header {
 /* ABOUT ME */
 /*------------------------------*/
 
-.section-about-me {
-    background-color: #e7f4ff;
-}
+.section-about-me { background-color: #f4f4f4; }
 
 /*------------------------------*/
 /* WORKS */
 /*------------------------------*/
-
-.section-works {
-/*    background-color: #f4f4f4;*/
-}
 
 .works-showcase {
     list-style: none;
@@ -240,9 +226,7 @@ header {
     background-color: #f0f0f0;
 }
 
-.w-padding {
-    padding: 30px;
-}
+.w-padding { padding: 30px; }
 
 .works-photo img {
     opacity: 0.7;
