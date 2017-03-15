@@ -159,6 +159,15 @@ header {
     margin-top: 20px;
 }
 
+.dark-logo { 
+    display: none;
+    height: 50px;
+    width: auto;
+    float: left;
+    margin-top: 5px;
+}
+
+/* Main nav */
 .main-nav {
     float: right;
     list-style: none;
@@ -185,6 +194,28 @@ header {
 .main-nav li a:active {
     border-bottom: 2px solid #f1c40f;
 }
+
+/* Sticky nav */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 2px #efefef;
+}
+
+.main-nav { margin-top: 16px; }
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 8px 0;
+    color: #555;
+}
+
+.sticky .logo { display: none; }
+.sticky .dark-logo { display: block; }
 
 /*------------------------------*/
 /* ABOUT ME */
