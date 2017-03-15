@@ -119,16 +119,6 @@ h2:after {
 
 /* ----- ICONS ----- */
 
-.social-nav {
-    list-style: none;
-    margin-top: 15px;
-}
-
-.social-nav li {
-    display: inline-block;
-    margin-left: 45px;
-}
-
 .icon-big {
     font-size: 200%;
     color: #f1c40f;
@@ -269,6 +259,15 @@ header {
 /* LET'S CHAT */
 /*------------------------------*/
 
+.social-nav {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.social-nav li {
+    display: inline-block;
+    margin-left: 45px;
+}
 
 
 
