@@ -109,6 +109,10 @@ h2:after {
     margin-top: 30px;
 }
 
+.contact h2 {
+    color: #fafafa;
+}
+
 /* ----- PARAGRAPHS ----- */
 
 .long-copy {
@@ -257,6 +261,14 @@ header {
 /* LET'S CHAT */
 /*------------------------------*/
 
+.contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url(img/bg-img-11.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh; /* 100% of the viewport */
+    background-attachment: fixed;
+}
+
 .social-nav {
     list-style: none;
     margin-top: 15px;
@@ -279,6 +291,5 @@ header {
     opacity: 0;
 }
 
-.ion-ios-email:h
 
 
