@@ -194,11 +194,9 @@ header {
 /* ABOUT ME */
 /*------------------------------*/
 
-/*
 .section-about-me {
-    background-color: #f4f4f4;
+    background-color: #e7f4ff;
 }
-*/
 
 /*------------------------------*/
 /* WORKS */
@@ -271,22 +269,16 @@ header {
     margin-right: 20px;
 }
 
-a span {
-    color: #555;
-    position: absolute;
+.ion-ios-email, .ion-android-phone-portrait {
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.social-text {
     visibility: hidden;
     opacity: 0;
 }
 
-a span:before {
-    content: '';
-    width: 0;
-    height: 0;
-    position: absolute;
-}
+.ion-ios-email:h
 
-a:hover span {
-    visibility: visible;
-    opacity: 1;
-    background-color: azure;
-}
+
