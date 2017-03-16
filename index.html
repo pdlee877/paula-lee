@@ -42,6 +42,7 @@
                     <ul class="main-nav">
                         <li><a href="#about-me">Discover</a></li>
                         <li><a href="#works">Projects</a></li>
+                        <li><a href="skills">Skills</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -68,52 +69,54 @@
             </div>
             <ul class="works-showcase clearfix">
                 <li>
-                    <figure class="works-photo">
-                        <a href="https://github.com/pdlee877/WaterMe" target="_blank"><img src="resources/img/water.png" alt="WaterMe mockup" ></a>
-                    </figure>
+                    <div class="works-photo">
+                        <a href="https://github.com/pdlee877/WaterMe" target="_blank"><img src="resources/img/water.png" alt="WaterMe mockup" class="photo-text">
+                            <div class="center-text">
+                                <p class="text"><strong>WaterMe:</strong> Currently working on an app to keep track of when to water your plants.</p>
+                            </div>
+                        </a>
+                    </div>
                 </li>
                 <li>
-                    <figure class="works-photo">
+                    <div class="works-photo">
                         <a href="https://github.com/xdkernelx/auto-biography" target="_blank">
-                        <img src="resources/img/auto-biography.png" alt="auto-biography final project"></a>
-                    </figure>
+                        <img src="resources/img/auto-biography.png" alt="auto-biography final project" class="photo-text">
+                            <div class="center-text">
+                                <p class="text"><strong>auto-biography:</strong> Keep track of the service, maintenance, and repairs done to your car.</p>
+                            </div>
+                        </a>
+                    </div>
                 </li>
                 <li>
-                    <figure class="works-photo">
+                    <div class="works-photo">
                         <a href="https://github.com/sally/plzhalp" target="_blank">
-                        <img src="resources/img/plzhalp.png" alt="plzhalp group project"></a>
-                    </figure>
+                        <img src="resources/img/plzhalp.png" alt="plzhalp group project" class="photo-text">
+                            <div class="center-text">
+                                <p class="text"><strong>plzhalp:</strong> Allows students to schedule time with the appropriate mentor.</p>
+                            </div>
+                        </a>
+                    </div>
                 </li>
                 <li>
-                    <figure class="works-photo">
+                    <div class="works-photo">
                         <a href="https://github.com/samuelparker/warrnt" target="_blank">
-                        <img src="resources/img/warrnt.png" alt="hack-against-violence winner project"></a>
-                    </figure>
-                </li>
-            </ul>
-            <ul class="works-showcase clearfix">
-                <li>
-                    <figure class="works-text">
-                        <p><strong>WaterMe:</strong> Working on an app to keep track of when to water your plants.(Work in progress)</p>
-                    </figure>
-                </li>
-                <li>
-                    <figure class="works-text">
-                        <p><strong>auto-biography:</strong> Keep track of the service, maintenance, and repairs done to your car.</p>
-                    </figure>
-                </li>
-                <li>
-                    <figure class="works-text">
-                        <p><strong>plzhalp:</strong> Allows students to schedule time with the appropriate mentor.</p>
-                    </figure>
-                </li>
-                <li>
-                    <figure class="works-text w-padding">
-                        <p><strong>Warrnt:</strong> Aggregated local community leaders contacts and forms to make it easier to promote police accountability.</p>
-                    </figure>
+                        <img src="resources/img/warrnt.png" alt="hack-against-violence winner project" class="photo-text">
+                            <div class="center-text">
+                                <p class="text"><strong>Warrnt:</strong> Aggregated local community leaders contacts and forms to make it easier to promote police accountability.</p>
+                            </div>
+                        </a>
+                    </div>
                 </li>
             </ul>
         </section>
+        
+        <section class="section-skills">
+            <h2>Skills</h2>
+            
+            <div id="highcharts-container">
+            </div>
+        </section>
+        
         <section class="contact" id="contact">
             <h2>Let's Connect</h2>
             
@@ -130,6 +133,9 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script src="vendors/js/jquery.waypoints.min.js"></script>
         <script src="vendors/js/tooltipster.bundle.min.js"></script>
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/data.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
         <script src="resources/js/script.js"></script>
     </body>
     
