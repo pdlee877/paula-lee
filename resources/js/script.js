@@ -1,42 +1,8 @@
 $(document).ready(function() {
     
-    
-    /* Stick navigation */
-    $('.js--section-about-me').waypoint(function(direction) {
-        if (direction == "down") {
-            $('nav').addClass('sticky');
-        } else {
-            $('nav').removeClass('sticky');
-        }
-    }, {
-        offset: '60px;'
-    });
-    
-    
-    /* Navigation scroll */
-    $(function() {
-       $('a[href*=#]:not([href=#])').click(function() {
-          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-              var target = $(this.hash);
-              target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-              if (target.length) {
-                  $('html, body').animate({
-                      scrollTop: target.offset().top
-                  }, 1000);
-                  return false;
-              }
-          }
-           
-       });
-    });
-    
-    /* Scroll back to top */
-    
-    
-    /* Hover Text */
-    $('.tooltip').tooltipster({
-        theme: 'tooltipster-light'
-    });
+    stickyNavigation();
+    navigationScroll();
+    hoverIconTextPopUp();    
         
 });
 
@@ -55,8 +21,11 @@ $(document).ready(function() {
             type: 'category'
         },
         yAxis: {
-            title: {
-                text: 'Total percent market share'
+            categories: ['Getting Started', 'Basic', 'Average', 'Pretty Good', 'Holy Cow'],
+            labels: {
+                formatter: function() {
+                    return this.value;
+                }
             }
 
         },
@@ -292,3 +261,44 @@ $(document).ready(function() {
             }]
         }
     });
+
+
+
+/* Stick navigation */
+var stickyNavigation = function() {
+    $('.js--section-about-me').waypoint(function(direction) {
+        if (direction == "down") {
+            $('nav').addClass('sticky');
+        } else {
+            $('nav').removeClass('sticky');
+        }
+    }, {
+        offset: '60px;'
+    });
+}; 
+
+/* Navigation scroll */
+var navigationScroll = function(){
+    $(function() {
+       $('a[href*=#]:not([href=#])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+              if (target.length) {
+                  $('html, body').animate({
+                      scrollTop: target.offset().top
+                  }, 1000);
+                  return false;
+              }
+          }
+
+       });
+    });
+};
+
+/* Hover Text */
+var hoverIconTextPopUp = function() {
+    $('.tooltip').tooltipster({
+        theme: 'tooltipster-light'
+    });
+};
