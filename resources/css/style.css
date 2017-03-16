@@ -286,7 +286,15 @@ header {
     line-height: 30px;
 }
 
+/*------------------------------*/
+/* SKILLS */
+/*------------------------------*/
 
+#highcharts-container {
+    min-width: 310px;
+    height: 400px;
+    margin: 0 auto;
+}
 
 /*------------------------------*/
 /* LET'S CHAT */
