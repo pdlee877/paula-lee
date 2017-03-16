@@ -70,163 +70,91 @@ Highcharts.chart('highcharts-container', {
     }],
     drilldown: {
         series: [{
-            name: 'Microsoft Internet Explorer',
-            id: 'Microsoft Internet Explorer',
+            name: 'Front-End',
+            id: 'Front-End',
             data: [
                 [
-                    'v11.0',
-                    24.13
+                    'HTML5',
+                    3
                 ],
                 [
-                    'v8.0',
-                    17.2
+                    'CSS3',
+                    2
                 ],
                 [
-                    'v9.0',
-                    8.11
+                    'Highcharts',
+                    2
                 ],
                 [
-                    'v10.0',
-                    5.33
+                    'JavaScript',
+                    2
                 ],
                 [
-                    'v6.0',
-                    1.06
+                    'Haml',
+                    1
                 ],
                 [
-                    'v7.0',
-                    0.5
+                    'React',
+                    0
                 ]
             ]
         }, {
-            name: 'Chrome',
-            id: 'Chrome',
+            name: 'Back-End',
+            id: 'Back-End',
             data: [
                 [
-                    'v40.0',
-                    5
+                    'Ruby',
+                    4
                 ],
                 [
-                    'v41.0',
-                    4.32
+                    'Rails',
+                    3
                 ],
                 [
-                    'v42.0',
-                    3.68
+                    'Sinatra',
+                    3
                 ],
                 [
-                    'v39.0',
-                    2.96
+                    'Python',
+                    1
                 ],
                 [
-                    'v36.0',
-                    2.53
-                ],
-                [
-                    'v43.0',
-                    1.45
-                ],
-                [
-                    'v31.0',
-                    1.24
-                ],
-                [
-                    'v35.0',
-                    0.85
-                ],
-                [
-                    'v38.0',
-                    0.6
-                ],
-                [
-                    'v32.0',
-                    0.55
-                ],
-                [
-                    'v37.0',
-                    0.38
-                ],
-                [
-                    'v33.0',
-                    0.19
-                ],
-                [
-                    'v34.0',
-                    0.14
-                ],
-                [
-                    'v30.0',
-                    0.14
+                    'Node',
+                    0
                 ]
             ]
         }, {
-            name: 'Firefox',
-            id: 'Firefox',
+            name: 'Databases',
+            id: 'Databases',
             data: [
                 [
-                    'v35',
-                    2.76
+                    'PostgreSQL',
+                    3
                 ],
                 [
-                    'v36',
-                    2.32
+                    'SQLite3',
+                    3
                 ],
                 [
-                    'v37',
-                    2.31
-                ],
-                [
-                    'v34',
-                    1.27
-                ],
-                [
-                    'v38',
-                    1.02
-                ],
-                [
-                    'v31',
-                    0.33
-                ],
-                [
-                    'v33',
-                    0.22
-                ],
-                [
-                    'v32',
-                    0.15
+                    'ActiveRecord (ORM)',
+                    3
                 ]
             ]
         }, {
-            name: 'Safari',
-            id: 'Safari',
+            name: 'Test-Driven Development',
+            id: 'Test-Driven Development',
             data: [
                 [
-                    'v8.0',
-                    2.56
+                    'Jasmine',
+                    4
                 ],
                 [
-                    'v7.1',
-                    0.77
+                    'RSpec',
+                    3
                 ],
                 [
-                    'v5.1',
-                    0.42
-                ],
-                [
-                    'v5.0',
-                    0.3
-                ],
-                [
-                    'v6.1',
-                    0.29
-                ],
-                [
-                    'v7.0',
-                    0.26
-                ],
-                [
-                    'v6.2',
-                    0.17
+                    'Capybara',
+                    1
                 ]
             ]
         }, {
