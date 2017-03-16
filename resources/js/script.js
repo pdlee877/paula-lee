@@ -6,10 +6,12 @@ $(document).ready(function() {
         
 });
 
+
 // Create skills chart
 Highcharts.chart('highcharts-container', {
     chart: {
-        type: 'column'
+        type: 'column',
+        backgroundColor: '#d6d6d6'
     },
     title: {
         text: 'Technical Skills Breakdown'
@@ -36,15 +38,13 @@ Highcharts.chart('highcharts-container', {
         series: {
             borderWidth: 0,
             dataLabels: {
-                enabled: true,
-                format: '{point.y:.1f}%'
+                enabled: false
             }
         }
     },
 
     tooltip: {
-        headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
-        pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:.2f}%</b> of total<br/>'
+        pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.dataLabels}</b><br/>'
     },
 
     series: [{
@@ -52,19 +52,27 @@ Highcharts.chart('highcharts-container', {
         colorByPoint: true,
         data: [{
             name: 'Front-End',
+            dataLabels: 'Average',
             y: 3,
+            color: '#4E6766',
             drilldown: 'Front-End'
         }, {
             name: 'Back-End',
+            dataLabels: 'Basic',
             y: 2,
+            color: '#5AB1BB',
             drilldown: 'Back-End'
         }, {
             name: 'Databases',
+            dataLabels: 'Basic',
             y: 2,
+            color: '#f1c40f ',
             drilldown: 'Databases'
         }, {
             name: 'Test-Driven Development',
+            dataLabels: 'Getting Started',
             y: 1,
+            color: '#A5C882',
             drilldown: 'Test-Driven Development'
         }]
     }],
@@ -181,7 +189,6 @@ Highcharts.chart('highcharts-container', {
         }]
     }
 });
-
 
 
 /* Stick navigation */
