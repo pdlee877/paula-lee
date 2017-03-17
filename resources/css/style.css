@@ -82,7 +82,7 @@ h3 {
     margin-bottom: 15px;
 }
 
-h4 {
+.main-img-text-box h4 {
     color: #fff;
 /*    margin: 10px 0 30px 95px;*/
     margin: 10px 0 30px 164px;
@@ -213,6 +213,7 @@ header {
 .sticky .main-nav li a:visited {
     padding: 8px 0;
     color: #555;
+    font-size: 15px;
 }
 
 .sticky .logo { display: none; }
@@ -290,11 +291,17 @@ header {
 /* SKILLS */
 /*------------------------------*/
 
+/*
 #highcharts-container {
     min-width: 310px;
     height: 400px;
     margin: 0 auto;
 }
+*/
+
+
+
+
 
 /*------------------------------*/
 /* LET'S CHAT */

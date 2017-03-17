@@ -42,7 +42,7 @@
                     <ul class="main-nav">
                         <li><a href="#about-me">Discover</a></li>
                         <li><a href="#works">Projects</a></li>
-                        <li><a href="skills">Skills</a></li>
+                        <li><a href="#skills">Skills</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -110,11 +110,32 @@
             </ul>
         </section>
         
-        <section class="section-skills">
+        <section class="section-skills" id="skills">
             <h2>Technical Skills</h2>
             
-            <div id="highcharts-container">
+            <div class="row">
+                <div class="col span-1-of-4 box">
+                    <img src="resources/img/front-end.png">
+                    <h4>Front-End</h4>
+                    <p>HTML5, CSS3, jQuery, Haml, Highcharts, D3</p>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="resources/img/back-end.png">
+                    <h4>Back-End</h4>
+                    <p>Rails, Sinatra, Python</p>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="resources/img/database.png">
+                    <h4>Databases</h4>
+                    <p>PostgreSQL, SQLite3, ActiveRecord(ORM)</p>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="resources/img/tdd.png">
+                    <h4>Test-Driven Development</h4>
+                    <p>RSpec, Jasmine, Capybara</p>
+                </div>
             </div>
+            
         </section>
         
         <section class="contact" id="contact">
@@ -133,9 +154,11 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script src="vendors/js/jquery.waypoints.min.js"></script>
         <script src="vendors/js/tooltipster.bundle.min.js"></script>
+<!--
         <script src="https://code.highcharts.com/highcharts.js"></script>
         <script src="https://code.highcharts.com/modules/data.js"></script>
         <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+-->
         <script src="resources/js/script.js"></script>
     </body>
     
