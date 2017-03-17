@@ -213,6 +213,7 @@ header {
 .sticky .main-nav li a:visited {
     padding: 8px 0;
     color: #555;
+    font-size: 15px;
 }
 
 .sticky .logo { display: none; }
