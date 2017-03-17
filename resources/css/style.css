@@ -88,9 +88,11 @@ h3 {
     margin: 10px 0 30px 164px;
 }
 
+/*
 .section-about-me h2 {
     text-transform: none;
 }
+*/
 
 /* the line under the h2 heading */
 h2:after {
@@ -223,7 +225,8 @@ header {
 /* ABOUT ME */
 /*------------------------------*/
 
-.section-about-me { background-color: #f4f4f4; }
+.section-about-me { background-color: #f5f5f5; }
+
 
 /*------------------------------*/
 /* WORKS */
@@ -354,7 +357,7 @@ header {
 
 .ch-info .ch-info-back {
     transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
-    background: #000;
+    background: #555;
     opacity: 0;
 }
 
