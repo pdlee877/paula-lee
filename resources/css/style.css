@@ -291,13 +291,9 @@ header {
 /* SKILLS */
 /*------------------------------*/
 
-/*
-#highcharts-container {
-    min-width: 310px;
-    height: 400px;
-    margin: 0 auto;
+.section-skills {
+    background-color: #f5f5f5;
 }
-*/
 
 .ch-grid {
     margin: 20px 0 0 0;
